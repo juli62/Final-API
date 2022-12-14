@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+
+
+body {
+    margin: 0px;
+}
+
+/* 
+.topnav {
+    background-color: #232323;
+    overflow: hidden;
+
+}
+
+.login {
+    display: flex;
+    justify-content: right;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.topnav a:hover {
+    background-color: #39A9CB;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #2940D3;
+    color: white;
+}
+
+.logo {
+    width: 35px;
+    object-fit: cover;
+
+} */
+
+.login-form {
+    overflow: hidden;
+    position: absolute;
+    width: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-color: #212529;
+    border-radius: 15px;
+    box-shadow: 1px 6px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 6px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 6px 21px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.login-form-pos {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.tasks {
+    display: flex;
+    overflow: auto;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    height: 80%;
+    border-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    left: 40%;
+    top: 20%;
+    box-shadow: 1px 1px 8px -1px rgba(10, 10, 10, 0.58) inset;
+    -webkit-box-shadow: 1px 1px 8px -1px rgba(10, 10, 10, 0.58) inset;
+    -moz-box-shadow: 1px 1px 8px -1px rgba(10, 10, 10, 0.58) inset;
+}
+
+.task-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    margin-top: 50px;
+
+}
+
+.delete-icon {
+    height: 20px;
+    object-fit: cover;
+}
+
+.task {
+    width: fit-content;
+
+}
+
+#task-item {
+    min-width: 300px;
+
+}
+
+#task-submit {
+    margin-bottom: -13px;
+}
+
+#color-picker {
+    margin-bottom: -13px;
+}
