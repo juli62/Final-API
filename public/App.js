@@ -51,7 +51,7 @@ const deleteTask = async (id) => {
 const formatTask = (task) => {
     return `<div class='list-group task' id='${task._id}' >
 <label class='list-group-item d-flex gap-3' id='task-item'>
-    <input class='form-check-input flex-shrink-0' type='checkbox' value='' checked
+    <input class='form-check-input flex-shrink-0' type='checkbox' value='' 
         style='font-size: 1.375em;'>
     <span class='pt-1 form-checked-content'>
         <strong>${task.taskName} :</strong>
